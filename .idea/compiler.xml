@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kafka-spark-010" />
+        <module name="spark-core" />
+        <module name="spark-sql" />
+        <module name="spark-streaming" />
+        <module name="spark-test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka-spark-010" target="1.8" />
+      <module name="spark-0615" target="1.8" />
+      <module name="spark-core" target="1.8" />
+      <module name="spark-sql" target="1.8" />
+      <module name="spark-streaming" target="1.8" />
+      <module name="spark-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
